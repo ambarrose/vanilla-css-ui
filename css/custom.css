@@ -18,15 +18,33 @@
     display: inline-block;
     width: 20%;
   }
+  .fa-bars {
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+  }
   .logo {
     width: 58.25%;
+  }
+  img {
+    width: 220px;
+    height: 45px;
+    margin-bottom: 10px;
   }
   .search {
     width: 20.2%;
   }
+  .fa-search {
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    right: 32px;
+  }
 
   .daily-section {
-    background-color: #ec0d93;
     height: 120px;
     height: 30vh;
   }
@@ -41,6 +59,39 @@
     width: 49.4%;
     height: 81%;
     float: left;
+  }
+  .wi-day-sunny {
+    color: #e9e007;
+    font-size: 100px;
+    position: absolute;
+    top: 140px;
+    left: 40px;
+  }
+  .wi-thermometer{
+    color: #000;
+    font-size: 35px;
+  }
+  .wi-thermometer-exterior {
+    color: #000;
+    font-size: 35px;
+  }
+  .wi-cloudy-gusts{
+    color: #000;
+    font-size: 35px;
+  }
+   .wi-raindrop {
+     color: #000;
+     font-size: 35px;
+  }
+  .contain p {
+    font-size: 17px;
+    float: none;
+  }
+  .speed {
+    padding-left: 20px;
+  }
+  .temp {
+    padding-left: 20px;
   }
 
   .map-section {
@@ -64,10 +115,22 @@
     left: 0;
     width: 80%;
   }
+  .title {
+      text-transform: uppercase;
+      margin-top: 13px;
+      margin-bottom: 13px;
+      padding-left: 10px;
+  }
   .map-expand {
     bottom: 0;
     right: 0;
     width: 20%;
+  }
+  .fa-arrows-alt {
+    font-size: 30px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
   }
 
   .favourite-section {
