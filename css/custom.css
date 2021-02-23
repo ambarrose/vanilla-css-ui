@@ -16,7 +16,6 @@
   .search {
     height: 100%;
     display: inline-block;
-    width: 20%;
   }
   .fa-bars {
     color: #000;
@@ -26,15 +25,18 @@
     left: 30px;
   }
   .logo {
-    width: 58.25%;
+    width: 58.3%;
+    text-align: center;
   }
   img {
-    width: 220px;
+    width: 212px;
     height: 45px;
     margin-bottom: 10px;
   }
+  .burger-menu,
   .search {
-    width: 20.2%;
+    width: 20%;
+    height: 50px;
   }
   .fa-search {
     color: #000;
@@ -64,7 +66,7 @@
     color: #e9e007;
     font-size: 100px;
     position: absolute;
-    top: 140px;
+    top: 125px;
     left: 40px;
   }
   .wi-thermometer{
@@ -151,3 +153,81 @@
     display: inline-block;
     width: 32.1%;
   }
+
+
+/* media queries starts */
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .daily-section {
+    background-color: red;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .daily-section {
+    background-color: blue;
+  }
+  .weather-image {
+    width: 40%;
+    height: 81%;
+    float: left;
+  }
+  .wi-day-sunny {
+    color: #e9e007;
+    font-size: 100px;
+    position: absolute;
+    top: 125px;
+    left: 70px;
+  }
+  .weather-info {
+    width: 55%;
+    height: 81%;
+    float: left;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+   .daily-section {
+     background-color: #20da48;
+   }
+   .wi-day-sunny {
+     color: #e9e007;
+     font-size: 100px;
+     position: absolute;
+     top: 125px;
+     left: 100px;
+   }
+ }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .daily-section {
+    background-color: #d1106c;
+  }
+  .wi-day-sunny {
+    color: #e9e007;
+    font-size: 100px;
+    position: absolute;
+    top: 125px;
+    left: 140px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+   .daily-section {
+     background-color: #dd7911;
+   }
+   .wi-day-sunny {
+     color: #e9e007;
+     font-size: 100px;
+     position: absolute;
+     top: 125px;
+     left: 180px;
+   }
+ }
